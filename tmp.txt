@@ -1,0 +1,18 @@
+error: failed to connect to the hypervisor
+error: authentication failed: no agent is available to authenticate
+
+
+Unable to connect to libvirt.
+
+authentication failed: no agent is available to authenticate
+
+Libvirt URI is: qemu:///system
+
+Traceback (most recent call last):
+  File "/usr/share/virt-manager/virtManager/connection.py", line 862, in _do_open
+    self._backend.open(self._do_creds_password)
+  File "/usr/share/virt-manager/virtinst/connection.py", line 161, in open
+    open_flags)
+  File "/usr/lib/python2.7/site-packages/libvirt.py", line 105, in openAuth
+    if ret is None:raise libvirtError('virConnectOpenAuth() failed')
+libvirtError: authentication failed: no agent is available to authenticate
