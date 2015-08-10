@@ -4,3 +4,4 @@ todo
 	second monitor bspwm
 	pacman/powerpill no yes
 	
+systemd-nspawn
