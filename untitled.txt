@@ -1,0 +1,1 @@
+libvirt qemu dmidecode ebtables dnsmasq bridge-utils openbsd-netcat virt-manager virtviewer

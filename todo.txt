@@ -1,0 +1,6 @@
+todo
+	mouse pointer
+	alsa
+	second monitor bspwm
+	pacman/powerpill no yes
+	
