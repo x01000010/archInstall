@@ -22,4 +22,7 @@ reflector --verbose --country 'United States' -l 20 -p http --sort rate --save /
 
 pacstrap /mnt base base-devel
 genfstab -U /mnt > /mnt/etc/fstab
+
+cp configure.sh /mnt
+
 arch-chroot /mnt /bin/bash
