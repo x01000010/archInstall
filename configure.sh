@@ -49,7 +49,7 @@ sudo powerpill -S wget
 
 sudo powerpill -S xorg-server xorg-server-utils xorg-apps xorg-xinit mesa-demos xterm xorg-xclock\
  nvidia nvidia-libgl lib32-nvidia-libgl alsa-utils bspwm sxhkd slim dmenu chromium firefox stow\
- libvirt qemu ebtables dnsmasq bridge-utils openbsd-netcat virt-manager virtviewer dmidecode ntp --noconfirm
+ libvirt qemu ebtables dnsmasq bridge-utils openbsd-netcat virt-manager virtviewer dmidecode ntp geany--noconfirm
 
 echo "Section \"InputClass\"" > /etc/X11/xorg.conf.d/00-keyboard.conf
 echo "Identifier \"system-keyboard\"" >> /etc/X11/xorg.conf.d/00-keyboard.conf
