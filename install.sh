@@ -18,7 +18,7 @@ btrfs subvolume create /mnt/var
 btrfs subvolume create /mnt/data
 
 pacman -Syy reflector --noconfirm
-reflector --verbose --country 'United States' -l 20 -p http --sort rate --save /etc/pacman.d/mirrorlist</code>
+reflector --verbose --country 'United States' -l 20 -p http --sort rate --save /etc/pacman.d/mirrorlist
 
 pacstrap /mnt base base-devel
 genfstab -U /mnt > /mnt/etc/fstab
